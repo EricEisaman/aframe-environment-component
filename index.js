@@ -449,7 +449,7 @@ AFRAME.registerComponent('environment', {
         }
       }
     }
-    console.log('%c' + params.join('; '), 'color: #f48;font-weight:bold');
+    //console.log('%c' + params.join('; '), 'color: #f48;font-weight:bold');
   },
 
   // Custom Math.random() with seed. Given this.environmentData.seed and x, it always returns the same "random" number
